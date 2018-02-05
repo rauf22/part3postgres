@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-unslider-rails', '~> 2.0', '>= 2.0.1'
 gem 'devise'
 gem 'rails_admin'
+gem 'paperclip'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -2,8 +2,9 @@
 			<div class="center-block-main">
 		    	<div class="header-top clearfix">
 		        	<p class="logo">BIRUANG   </p>
-				     <div class="user_nav">
-		          	<p class="notice"><%= notice %></p>
+		      			 <div class="user_nav">
+
+								<p class="notice"><%= notice %></p>
             		<p class="alert"><%= alert %></p>
 						     <% if user_signed_in? %>
 						     <%= current_user.email %>, Не Вы?
@@ -13,8 +14,7 @@
 						     <%= link_to "Регистрация", new_user_registration_path %> | 
 						     <%= link_to "Вход", user_session_path %>
 						     <% end %>
-
-              </div>
+               </div>
 
 
 		            <div class="contakt-basket">
@@ -28,6 +28,7 @@
 		                </p>
 
 		            </div>
+
 
 		      </div>
 		      <div class="header-bottom clearfix">
@@ -49,6 +50,7 @@
 		                    <input type="search" class="search" placeholder="Search...">
 		                </form>
 		            </div>
+
 
 
 		      </div>
